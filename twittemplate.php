@@ -11,13 +11,22 @@ class TwitTemplate
 <meta charset="UTF-8" />
 <title>Twitter Analysis</title>
 <style>
-table.boxed,td,th,caption{border:1px solid black;border-collapse:collapse;padding:2px 10px;}
-table.bolder,td.bolder{font-weight: bold;}
-caption{background-color:lightgrey;}
-th{cursor:n-resize;background-color:lightgrey;}
+caption{font-weight:bold;border:1px solid black;border-collapse:collapse;padding:2px 10px;background-color:lightgrey;}
+th{cursor:n-resize;background-color:lightgrey;border:1px solid black;border-collapse:collapse;padding:2px 10px;}
+
+p.message{color:red;}
+.big{padding:none;border:none;border-collapse:collapse;}
 .separator{background-color:darkgreen;}
 .bignum{color:white;background-color:darkgreen;text-align:center;font-size:200%;}
-p.message{color:red;}
+.bolder{font-weight:bold;}
+
+#rundata td {font-weight:bold;border:1px solid black;border-collapse:collapse;padding:2px 10px;}
+#topusers, #topusers td, #history, #history td, #toptweets, #toptweets td {
+border:1px solid black;
+border-collapse:collapse;
+padding:2px 10px;
+}
+
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
@@ -50,7 +59,7 @@ $(document).ready(function(){
     	$this->header();
     	?>
 <p><a href="twitindex.php">Return to entry form</a></p>
-<table class="bolder">
+<table id="rundata">
 <tbody>
 <tr><td>Date Range:</td><td><?php print(date_format($TwitData->start,'Y-m-d H:i:s') . ' to ' .
     			date_format($TwitData->end,'Y-m-d H:i:s'))?></td></tr>
@@ -61,7 +70,8 @@ $(document).ready(function(){
 
 <br />
 
-<table class="boxed">
+<table class="big"><tr class="big" valign="top"><td class="big">
+<table id="topusers">
 <thead>
 <caption><b>Top Users</b></caption>
 <tr><th>User</th><th>Tweets</th><th>Sentiment</th></tr>
@@ -79,9 +89,18 @@ $(document).ready(function(){
 </tbody>
 </table>
 
+</td><td class="big">
+
+<table id="history">
+<thead>
+<caption><b>Sentiment History</b></caption>
+</thead>
+<tr><td><img src="sentiment.png" alt="Graph of sentiment history"></td></tr>
+</table></td></tr></table>
+
 <br />
 
-<table class="boxed">
+<table id="toptweets">
 <thead>
 <caption><b><?php print("Top " . $TwitData->saveTop . " Tweets")?></b></caption>
 <tr><th></th><th>User</th><th>Date</th><th>Retweets</th><th>Favorites</th><th>Sentiment</th><th>URL</th></tr>

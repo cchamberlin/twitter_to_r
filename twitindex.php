@@ -25,6 +25,10 @@ try {
 		$query = $TwitData->cleanHashtag($_GET['q']);
 		$count = $TwitData->cleanResultsNum($_GET['n']);
 		
+		// Let's try to get the graph before doing anything big.
+		exec('C:\Progra~1\R\R-3.2.2\bin\Rscript C:\xampp\htdocs\php\twitter_to_r\data\twittergraph.r',$return_data,$return_code);
+		
+		
 		// Search Tweets parameters as described at https://dev.twitter.com/docs/api/1.1/get/search/tweets
 		$twitterSearchParams = array (
 				'q' => $query,
@@ -38,6 +42,8 @@ try {
 		// Write data to file if debugging.
 		if (DUMP_ALL_TWEETS == TRUE) {
 			$handle = fopen('twits.txt', 'w');
+			fwrite($handle, print_r($return_data,TRUE));
+			fwrite($handle, $return_code);
 			fwrite($handle, print_r($results,TRUE));
 			fclose($handle);
 		}

@@ -10,3 +10,6 @@ C:\xampp\htdocs\php\twitter-sentiment-analysis\lib\twitter-client.php Line 423	O
 C:\xampp\htdocs\php\twitter-sentiment-analysis\twitdata.php Line 40	Number of results is not a number. Suspicious.
 C:\xampp\htdocs\php\twitter-sentiment-analysis\twitdata.php Line 40	Number of results is not a number. Suspicious.
 C:\xampp\htdocs\php\twitter-sentiment-analysis\twitdata.php Line 40	Number of results is 50. Suspicious.
+C:\xampp\htdocs\php\twitter_to_r\lib\twitter-client.php Line 423	Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+C:\xampp\htdocs\php\twitter_to_r\lib\twitter-client.php Line 423	Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+C:\xampp\htdocs\php\twitter_to_r\lib\twitter-client.php Line 423	Resolving timed out after 5507 milliseconds
