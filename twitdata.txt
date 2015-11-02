@@ -1,0 +1,52 @@
+Made it here!
+Array
+(
+    [GoPolyMet] => Array
+        (
+            [tweetCount] => 3
+            [sentiment] => 0
+        )
+
+    [charles  r    lacy] => Array
+        (
+            [tweetCount] => 1
+            [sentiment] => 0
+        )
+
+    [Jon Eisenberg] => Array
+        (
+            [tweetCount] => 1
+            [sentiment] => 0
+        )
+
+    [Mike Zipko] => Array
+        (
+            [tweetCount] => 1
+            [sentiment] => 0
+        )
+
+    [Magnus Ramachandra] => Array
+        (
+            [tweetCount] => 1
+            [sentiment] => 0
+        )
+
+    [Henry Corp Inc LLC] => Array
+        (
+            [tweetCount] => 1
+            [sentiment] => 0
+        )
+
+    [Jobs for Minnesotans] => Array
+        (
+            [tweetCount] => 1
+            [sentiment] => 0
+        )
+
+    [Min Links] => Array
+        (
+            [tweetCount] => 3
+            [sentiment] => 0
+        )
+
+)

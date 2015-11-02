@@ -1,0 +1,2725 @@
+Array
+(
+    [0] =>         Date AvgSentiment
+    [1] => 1 09/05/2015          0.3
+    [2] => 2 09/12/2015          0.2
+    [3] => 3 09/19/2015          0.5
+    [4] => null device
+    [5] =>           1
+)
+0Array
+(
+    [0] => Array
+        (
+            [id] => 657282299042525185
+            [user] => The Daily Report
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-22 19:48:06.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Thu Oct 22 19:48:06 +0000 2015
+                    [id] => 6.5728229904253E+17
+                    [id_str] => 657282299042525185
+                    [text] => RT @Mycoakes: In letter to @GovMarkDayton, Downstream Business Coalition urges rejection of #Polymet https://t.co/jXZm1cP5ki
+                    [source] => <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 1681549220
+                            [id_str] => 1681549220
+                            [name] => The Daily Report
+                            [screen_name] => TheDailyRep
+                            [location] => Twin Cities, MN
+                            [description] => News/Talk Show at 3pm on @am950radio Hosted by Ian Levitt (@ianofthetundra)
+                            [url] => https://t.co/UyUj0XGT56
+                            [entities] => Array
+                                (
+                                    [url] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [url] => https://t.co/UyUj0XGT56
+                                                            [expanded_url] => https://m.soundcloud.com/am950s-best-interviews/sets/the-daily-report
+                                                            [display_url] => m.soundcloud.com/am950s-best-in…
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 0
+                                                                    [1] => 23
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 622
+                            [friends_count] => 944
+                            [listed_count] => 26
+                            [created_at] => Sun Aug 18 20:16:14 +0000 2013
+                            [favourites_count] => 2010
+                            [utc_offset] => -14400
+                            [time_zone] => Eastern Time (US & Canada)
+                            [geo_enabled] => 
+                            [verified] => 
+                            [statuses_count] => 5587
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => C0DEED
+                            [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                            [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                            [profile_background_tile] => 
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/378800000406225277/0e64d85a73d47f74d5c30f6fd4ee669e_normal.png
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/378800000406225277/0e64d85a73d47f74d5c30f6fd4ee669e_normal.png
+                            [profile_banner_url] => https://pbs.twimg.com/profile_banners/1681549220/1429071392
+                            [profile_link_color] => 0084B4
+                            [profile_sidebar_border_color] => C0DEED
+                            [profile_sidebar_fill_color] => DDEEF6
+                            [profile_text_color] => 333333
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 1
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [retweeted_status] => Array
+                        (
+                            [metadata] => Array
+                                (
+                                    [iso_language_code] => en
+                                    [result_type] => recent
+                                )
+
+                            [created_at] => Thu Oct 22 17:37:06 +0000 2015
+                            [id] => 6.5724933390185E+17
+                            [id_str] => 657249333901848576
+                            [text] => In letter to @GovMarkDayton, Downstream Business Coalition urges rejection of #Polymet https://t.co/jXZm1cP5ki
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [user] => Array
+                                (
+                                    [id] => 18780856
+                                    [id_str] => 18780856
+                                    [name] => Mike Oakes
+                                    [screen_name] => Mycoakes
+                                    [location] => Duluth, MN
+                                    [description] => Radio News Guy at 610 KDAL in Duluth. Unabashed Minnesota Twins Nut. Small games aficionado.
+                                    [url] => 
+                                    [entities] => Array
+                                        (
+                                            [description] => Array
+                                                (
+                                                    [urls] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [protected] => 
+                                    [followers_count] => 226
+                                    [friends_count] => 817
+                                    [listed_count] => 2
+                                    [created_at] => Thu Jan 08 21:46:29 +0000 2009
+                                    [favourites_count] => 534
+                                    [utc_offset] => -21600
+                                    [time_zone] => Mountain Time (US & Canada)
+                                    [geo_enabled] => 
+                                    [verified] => 
+                                    [statuses_count] => 1150
+                                    [lang] => en
+                                    [contributors_enabled] => 
+                                    [is_translator] => 
+                                    [is_translation_enabled] => 
+                                    [profile_background_color] => 0099B9
+                                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme4/bg.gif
+                                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme4/bg.gif
+                                    [profile_background_tile] => 
+                                    [profile_image_url] => http://pbs.twimg.com/profile_images/642472252533899264/9Q5fUQND_normal.jpg
+                                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/642472252533899264/9Q5fUQND_normal.jpg
+                                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/18780856/1442012064
+                                    [profile_link_color] => 0099B9
+                                    [profile_sidebar_border_color] => 5ED4DC
+                                    [profile_sidebar_fill_color] => 95E8EC
+                                    [profile_text_color] => 3C3940
+                                    [profile_use_background_image] => 1
+                                    [has_extended_profile] => 
+                                    [default_profile] => 
+                                    [default_profile_image] => 
+                                    [following] => 
+                                    [follow_request_sent] => 
+                                    [notifications] => 
+                                )
+
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [is_quote_status] => 
+                            [retweet_count] => 2
+                            [favorite_count] => 0
+                            [entities] => Array
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Polymet
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 78
+                                                            [1] => 86
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [screen_name] => GovMarkDayton
+                                                    [name] => Governor Mark Dayton
+                                                    [id] => 216481299
+                                                    [id_str] => 216481299
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 13
+                                                            [1] => 27
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [url] => https://t.co/jXZm1cP5ki
+                                                    [expanded_url] => http://kdal610.com/news/articles/2015/oct/22/group-opposing-polymet-project-calls-on-governor-to-reject-mine-plan/
+                                                    [display_url] => kdal610.com/news/articles/…
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 87
+                                                            [1] => 110
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [is_quote_status] => 
+                    [retweet_count] => 2
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Polymet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 92
+                                                    [1] => 100
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => Mycoakes
+                                            [name] => Mike Oakes
+                                            [id] => 18780856
+                                            [id_str] => 18780856
+                                            [indices] => Array
+                                                (
+                                                    [0] => 3
+                                                    [1] => 12
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [screen_name] => GovMarkDayton
+                                            [name] => Governor Mark Dayton
+                                            [id] => 216481299
+                                            [id_str] => 216481299
+                                            [indices] => Array
+                                                (
+                                                    [0] => 27
+                                                    [1] => 41
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/jXZm1cP5ki
+                                            [expanded_url] => http://kdal610.com/news/articles/2015/oct/22/group-opposing-polymet-project-calls-on-governor-to-reject-mine-plan/
+                                            [display_url] => kdal610.com/news/articles/…
+                                            [indices] => Array
+                                                (
+                                                    [0] => 101
+                                                    [1] => 124
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => RT @Mycoakes: In letter to @GovMarkDayton, Downstream Business Coalition urges rejection of #Polymet https://t.co/jXZm1cP5ki
+            [url] => https://twitter.com/TheDailyRep/status/657282299042525185
+            [retweet_count] => 2
+            [favorite_count] => 0
+            [is_retweet] => 1
+            [parent] => 657249333901848576
+            [sentiment] => neutral
+        )
+
+    [1] => Array
+        (
+            [id] => 657282003021074432
+            [user] => Aaron Klemz
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-22 19:46:55.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Thu Oct 22 19:46:55 +0000 2015
+                    [id] => 6.5728200302107E+17
+                    [id_str] => 657282003021074432
+                    [text] => RT @Mycoakes: In letter to @GovMarkDayton, Downstream Business Coalition urges rejection of #Polymet https://t.co/jXZm1cP5ki
+                    [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 57120672
+                            [id_str] => 57120672
+                            [name] => Aaron Klemz
+                            [screen_name] => aaronklemz
+                            [location] => Columbia Heights, MN
+                            [description] => Spewing misleading and simply incorrect statements ... loud ... obnoxious ... deceitful ... frenzied ... irrational. - Mesabi Daily News 10/16/15
+                            [url] => 
+                            [entities] => Array
+                                (
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 2166
+                            [friends_count] => 2350
+                            [listed_count] => 78
+                            [created_at] => Wed Jul 15 20:03:52 +0000 2009
+                            [favourites_count] => 965
+                            [utc_offset] => 
+                            [time_zone] => 
+                            [geo_enabled] => 1
+                            [verified] => 
+                            [statuses_count] => 20650
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => 000000
+                            [profile_background_image_url] => http://abs.twimg.com/images/themes/theme6/bg.gif
+                            [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme6/bg.gif
+                            [profile_background_tile] => 
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                            [profile_banner_url] => https://pbs.twimg.com/profile_banners/57120672/1433091005
+                            [profile_link_color] => 3B94D9
+                            [profile_sidebar_border_color] => 000000
+                            [profile_sidebar_fill_color] => 000000
+                            [profile_text_color] => 000000
+                            [profile_use_background_image] => 
+                            [has_extended_profile] => 
+                            [default_profile] => 
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [retweeted_status] => Array
+                        (
+                            [metadata] => Array
+                                (
+                                    [iso_language_code] => en
+                                    [result_type] => recent
+                                )
+
+                            [created_at] => Thu Oct 22 17:37:06 +0000 2015
+                            [id] => 6.5724933390185E+17
+                            [id_str] => 657249333901848576
+                            [text] => In letter to @GovMarkDayton, Downstream Business Coalition urges rejection of #Polymet https://t.co/jXZm1cP5ki
+                            [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [user] => Array
+                                (
+                                    [id] => 18780856
+                                    [id_str] => 18780856
+                                    [name] => Mike Oakes
+                                    [screen_name] => Mycoakes
+                                    [location] => Duluth, MN
+                                    [description] => Radio News Guy at 610 KDAL in Duluth. Unabashed Minnesota Twins Nut. Small games aficionado.
+                                    [url] => 
+                                    [entities] => Array
+                                        (
+                                            [description] => Array
+                                                (
+                                                    [urls] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [protected] => 
+                                    [followers_count] => 226
+                                    [friends_count] => 817
+                                    [listed_count] => 2
+                                    [created_at] => Thu Jan 08 21:46:29 +0000 2009
+                                    [favourites_count] => 534
+                                    [utc_offset] => -21600
+                                    [time_zone] => Mountain Time (US & Canada)
+                                    [geo_enabled] => 
+                                    [verified] => 
+                                    [statuses_count] => 1150
+                                    [lang] => en
+                                    [contributors_enabled] => 
+                                    [is_translator] => 
+                                    [is_translation_enabled] => 
+                                    [profile_background_color] => 0099B9
+                                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme4/bg.gif
+                                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme4/bg.gif
+                                    [profile_background_tile] => 
+                                    [profile_image_url] => http://pbs.twimg.com/profile_images/642472252533899264/9Q5fUQND_normal.jpg
+                                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/642472252533899264/9Q5fUQND_normal.jpg
+                                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/18780856/1442012064
+                                    [profile_link_color] => 0099B9
+                                    [profile_sidebar_border_color] => 5ED4DC
+                                    [profile_sidebar_fill_color] => 95E8EC
+                                    [profile_text_color] => 3C3940
+                                    [profile_use_background_image] => 1
+                                    [has_extended_profile] => 
+                                    [default_profile] => 
+                                    [default_profile_image] => 
+                                    [following] => 
+                                    [follow_request_sent] => 
+                                    [notifications] => 
+                                )
+
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [is_quote_status] => 
+                            [retweet_count] => 2
+                            [favorite_count] => 0
+                            [entities] => Array
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => Polymet
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 78
+                                                            [1] => 86
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [screen_name] => GovMarkDayton
+                                                    [name] => Governor Mark Dayton
+                                                    [id] => 216481299
+                                                    [id_str] => 216481299
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 13
+                                                            [1] => 27
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [url] => https://t.co/jXZm1cP5ki
+                                                    [expanded_url] => http://kdal610.com/news/articles/2015/oct/22/group-opposing-polymet-project-calls-on-governor-to-reject-mine-plan/
+                                                    [display_url] => kdal610.com/news/articles/…
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 87
+                                                            [1] => 110
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [is_quote_status] => 
+                    [retweet_count] => 2
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Polymet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 92
+                                                    [1] => 100
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => Mycoakes
+                                            [name] => Mike Oakes
+                                            [id] => 18780856
+                                            [id_str] => 18780856
+                                            [indices] => Array
+                                                (
+                                                    [0] => 3
+                                                    [1] => 12
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [screen_name] => GovMarkDayton
+                                            [name] => Governor Mark Dayton
+                                            [id] => 216481299
+                                            [id_str] => 216481299
+                                            [indices] => Array
+                                                (
+                                                    [0] => 27
+                                                    [1] => 41
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/jXZm1cP5ki
+                                            [expanded_url] => http://kdal610.com/news/articles/2015/oct/22/group-opposing-polymet-project-calls-on-governor-to-reject-mine-plan/
+                                            [display_url] => kdal610.com/news/articles/…
+                                            [indices] => Array
+                                                (
+                                                    [0] => 101
+                                                    [1] => 124
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => RT @Mycoakes: In letter to @GovMarkDayton, Downstream Business Coalition urges rejection of #Polymet https://t.co/jXZm1cP5ki
+            [url] => https://twitter.com/aaronklemz/status/657282003021074432
+            [retweet_count] => 2
+            [favorite_count] => 0
+            [is_retweet] => 1
+            [parent] => 657249333901848576
+            [sentiment] => neutral
+        )
+
+    [2] => Array
+        (
+            [id] => 657269669892595712
+            [user] => Mining Truth
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-22 18:57:55.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Thu Oct 22 18:57:55 +0000 2015
+                    [id] => 6.572696698926E+17
+                    [id_str] => 657269669892595712
+                    [text] => 38 businesses w/ 800 jobs downsteam of #PolyMet ask @GovMarkDayton to #StopPolyMet | NewsTalk 610 KDAL AM https://t.co/2jwcfwko9p
+                    [source] => <a href="http://www.hootsuite.com" rel="nofollow">Hootsuite</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 539110912
+                            [id_str] => 539110912
+                            [name] => Mining Truth
+                            [screen_name] => MiningTruth
+                            [location] => Minnesota
+                            [description] => Know the truth. Make your choice.
+                            [url] => http://t.co/FpzK3tPrsg
+                            [entities] => Array
+                                (
+                                    [url] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [url] => http://t.co/FpzK3tPrsg
+                                                            [expanded_url] => http://www.miningtruth.org
+                                                            [display_url] => miningtruth.org
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 0
+                                                                    [1] => 22
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 458
+                            [friends_count] => 384
+                            [listed_count] => 13
+                            [created_at] => Wed Mar 28 14:54:27 +0000 2012
+                            [favourites_count] => 1
+                            [utc_offset] => 
+                            [time_zone] => 
+                            [geo_enabled] => 
+                            [verified] => 
+                            [statuses_count] => 1327
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => 603814
+                            [profile_background_image_url] => http://pbs.twimg.com/profile_background_images/547745433/mining-truth-twitter-background.jpg
+                            [profile_background_image_url_https] => https://pbs.twimg.com/profile_background_images/547745433/mining-truth-twitter-background.jpg
+                            [profile_background_tile] => 
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/2202053201/facebook-badge_normal.jpg
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/2202053201/facebook-badge_normal.jpg
+                            [profile_link_color] => 0084B4
+                            [profile_sidebar_border_color] => C0DEED
+                            [profile_sidebar_fill_color] => DDEEF6
+                            [profile_text_color] => 333333
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [is_quote_status] => 
+                    [retweet_count] => 0
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => PolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 39
+                                                    [1] => 47
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [text] => StopPolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 70
+                                                    [1] => 82
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => GovMarkDayton
+                                            [name] => Governor Mark Dayton
+                                            [id] => 216481299
+                                            [id_str] => 216481299
+                                            [indices] => Array
+                                                (
+                                                    [0] => 52
+                                                    [1] => 66
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/2jwcfwko9p
+                                            [expanded_url] => http://ow.ly/TJsSZ
+                                            [display_url] => ow.ly/TJsSZ
+                                            [indices] => Array
+                                                (
+                                                    [0] => 106
+                                                    [1] => 129
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => 38 businesses w/ 800 jobs downsteam of #PolyMet ask @GovMarkDayton to #StopPolyMet | NewsTalk 610 KDAL AM https://t.co/2jwcfwko9p
+            [url] => https://twitter.com/MiningTruth/status/657269669892595712
+            [retweet_count] => 0
+            [favorite_count] => 0
+            [is_retweet] => 
+            [parent] => 657269669892595712
+            [sentiment] => neutral
+        )
+
+    [3] => Array
+        (
+            [id] => 657269669536116736
+            [user] => Friends of the BWCAW
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-22 18:57:55.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Thu Oct 22 18:57:55 +0000 2015
+                    [id] => 6.5726966953612E+17
+                    [id_str] => 657269669536116736
+                    [text] => 38 businesses w/ 800 jobs downsteam of #PolyMet ask @GovMarkDayton to #StopPolyMet | NewsTalk 610 KDAL AM https://t.co/ZzN25AKxBY
+                    [source] => <a href="http://www.hootsuite.com" rel="nofollow">Hootsuite</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 48423333
+                            [id_str] => 48423333
+                            [name] => Friends of the BWCAW
+                            [screen_name] => FriendsBWCAW
+                            [location] => Minnesota
+                            [description] => Through advocacy and education, we work to keep the Boundary Waters wild.
+                            [url] => http://t.co/0dXQgjnJq9
+                            [entities] => Array
+                                (
+                                    [url] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [url] => http://t.co/0dXQgjnJq9
+                                                            [expanded_url] => http://www.friends-bwca.org
+                                                            [display_url] => friends-bwca.org
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 0
+                                                                    [1] => 22
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 4650
+                            [friends_count] => 1820
+                            [listed_count] => 150
+                            [created_at] => Thu Jun 18 17:32:49 +0000 2009
+                            [favourites_count] => 261
+                            [utc_offset] => -18000
+                            [time_zone] => Central Time (US & Canada)
+                            [geo_enabled] => 1
+                            [verified] => 
+                            [statuses_count] => 7702
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => 3F525E
+                            [profile_background_image_url] => http://pbs.twimg.com/profile_background_images/519571958887759872/QZ3oStiq.jpeg
+                            [profile_background_image_url_https] => https://pbs.twimg.com/profile_background_images/519571958887759872/QZ3oStiq.jpeg
+                            [profile_background_tile] => 1
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/652536036422082560/AOBLmywT_normal.jpg
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/652536036422082560/AOBLmywT_normal.jpg
+                            [profile_banner_url] => https://pbs.twimg.com/profile_banners/48423333/1416586859
+                            [profile_link_color] => 3F525E
+                            [profile_sidebar_border_color] => FFFFFF
+                            [profile_sidebar_fill_color] => EADEAA
+                            [profile_text_color] => 333333
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [is_quote_status] => 
+                    [retweet_count] => 0
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => PolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 39
+                                                    [1] => 47
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [text] => StopPolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 70
+                                                    [1] => 82
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => GovMarkDayton
+                                            [name] => Governor Mark Dayton
+                                            [id] => 216481299
+                                            [id_str] => 216481299
+                                            [indices] => Array
+                                                (
+                                                    [0] => 52
+                                                    [1] => 66
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/ZzN25AKxBY
+                                            [expanded_url] => http://ow.ly/TJsOt
+                                            [display_url] => ow.ly/TJsOt
+                                            [indices] => Array
+                                                (
+                                                    [0] => 106
+                                                    [1] => 129
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => 38 businesses w/ 800 jobs downsteam of #PolyMet ask @GovMarkDayton to #StopPolyMet | NewsTalk 610 KDAL AM https://t.co/ZzN25AKxBY
+            [url] => https://twitter.com/FriendsBWCAW/status/657269669536116736
+            [retweet_count] => 0
+            [favorite_count] => 0
+            [is_retweet] => 
+            [parent] => 657269669536116736
+            [sentiment] => neutral
+        )
+
+    [4] => Array
+        (
+            [id] => 657249333901848576
+            [user] => Mike Oakes
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-22 17:37:06.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Thu Oct 22 17:37:06 +0000 2015
+                    [id] => 6.5724933390185E+17
+                    [id_str] => 657249333901848576
+                    [text] => In letter to @GovMarkDayton, Downstream Business Coalition urges rejection of #Polymet https://t.co/jXZm1cP5ki
+                    [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 18780856
+                            [id_str] => 18780856
+                            [name] => Mike Oakes
+                            [screen_name] => Mycoakes
+                            [location] => Duluth, MN
+                            [description] => Radio News Guy at 610 KDAL in Duluth. Unabashed Minnesota Twins Nut. Small games aficionado.
+                            [url] => 
+                            [entities] => Array
+                                (
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 226
+                            [friends_count] => 817
+                            [listed_count] => 2
+                            [created_at] => Thu Jan 08 21:46:29 +0000 2009
+                            [favourites_count] => 534
+                            [utc_offset] => -21600
+                            [time_zone] => Mountain Time (US & Canada)
+                            [geo_enabled] => 
+                            [verified] => 
+                            [statuses_count] => 1150
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => 0099B9
+                            [profile_background_image_url] => http://abs.twimg.com/images/themes/theme4/bg.gif
+                            [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme4/bg.gif
+                            [profile_background_tile] => 
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/642472252533899264/9Q5fUQND_normal.jpg
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/642472252533899264/9Q5fUQND_normal.jpg
+                            [profile_banner_url] => https://pbs.twimg.com/profile_banners/18780856/1442012064
+                            [profile_link_color] => 0099B9
+                            [profile_sidebar_border_color] => 5ED4DC
+                            [profile_sidebar_fill_color] => 95E8EC
+                            [profile_text_color] => 3C3940
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [is_quote_status] => 
+                    [retweet_count] => 2
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => Polymet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 78
+                                                    [1] => 86
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => GovMarkDayton
+                                            [name] => Governor Mark Dayton
+                                            [id] => 216481299
+                                            [id_str] => 216481299
+                                            [indices] => Array
+                                                (
+                                                    [0] => 13
+                                                    [1] => 27
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/jXZm1cP5ki
+                                            [expanded_url] => http://kdal610.com/news/articles/2015/oct/22/group-opposing-polymet-project-calls-on-governor-to-reject-mine-plan/
+                                            [display_url] => kdal610.com/news/articles/…
+                                            [indices] => Array
+                                                (
+                                                    [0] => 87
+                                                    [1] => 110
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => In letter to @GovMarkDayton, Downstream Business Coalition urges rejection of #Polymet https://t.co/jXZm1cP5ki
+            [url] => https://twitter.com/Mycoakes/status/657249333901848576
+            [retweet_count] => 2
+            [favorite_count] => 0
+            [is_retweet] => 
+            [parent] => 657249333901848576
+            [sentiment] => neutral
+        )
+
+    [5] => Array
+        (
+            [id] => 657197750849818624
+            [user] => GoPolyMet
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-22 14:12:08.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Thu Oct 22 14:12:08 +0000 2015
+                    [id] => 6.5719775084982E+17
+                    [id_str] => 657197750849818624
+                    [text] => Discussing the #PolyMet project today at the Community Leaders Breakfast in Virginia. #IronRange https://t.co/MUL50LMafD
+                    [source] => <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 1855077066
+                            [id_str] => 1855077066
+                            [name] => GoPolyMet
+                            [screen_name] => GoPolyMet
+                            [location] => 
+                            [description] => Moving #Minnesota #Mining forward with the #PolyMet Project, a safe, modern copper-nickel-precious-metals mine in Northeastern Minnesota.
+                            [url] => http://t.co/JUdwwqIf9C
+                            [entities] => Array
+                                (
+                                    [url] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [url] => http://t.co/JUdwwqIf9C
+                                                            [expanded_url] => http://GoPolyMet.com
+                                                            [display_url] => GoPolyMet.com
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 0
+                                                                    [1] => 22
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 422
+                            [friends_count] => 131
+                            [listed_count] => 11
+                            [created_at] => Wed Sep 11 18:33:09 +0000 2013
+                            [favourites_count] => 171
+                            [utc_offset] => -14400
+                            [time_zone] => Eastern Time (US & Canada)
+                            [geo_enabled] => 1
+                            [verified] => 
+                            [statuses_count] => 649
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => C0DEED
+                            [profile_background_image_url] => http://pbs.twimg.com/profile_background_images/466945757212184576/5ki6thzn.jpeg
+                            [profile_background_image_url_https] => https://pbs.twimg.com/profile_background_images/466945757212184576/5ki6thzn.jpeg
+                            [profile_background_tile] => 
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/656524408924839938/Ei5VS_rt_normal.jpg
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/656524408924839938/Ei5VS_rt_normal.jpg
+                            [profile_banner_url] => https://pbs.twimg.com/profile_banners/1855077066/1445362568
+                            [profile_link_color] => 0084B4
+                            [profile_sidebar_border_color] => FFFFFF
+                            [profile_sidebar_fill_color] => DDEEF6
+                            [profile_text_color] => 333333
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [is_quote_status] => 
+                    [retweet_count] => 0
+                    [favorite_count] => 4
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => PolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 15
+                                                    [1] => 23
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [text] => IronRange
+                                            [indices] => Array
+                                                (
+                                                    [0] => 86
+                                                    [1] => 96
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                )
+
+                            [urls] => Array
+                                (
+                                )
+
+                            [media] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [id] => 6.5719774980108E+17
+                                            [id_str] => 657197749801082881
+                                            [indices] => Array
+                                                (
+                                                    [0] => 97
+                                                    [1] => 120
+                                                )
+
+                                            [media_url] => http://pbs.twimg.com/media/CR7V3xgUYAEskR-.jpg
+                                            [media_url_https] => https://pbs.twimg.com/media/CR7V3xgUYAEskR-.jpg
+                                            [url] => https://t.co/MUL50LMafD
+                                            [display_url] => pic.twitter.com/MUL50LMafD
+                                            [expanded_url] => http://twitter.com/GoPolyMet/status/657197750849818624/photo/1
+                                            [type] => photo
+                                            [sizes] => Array
+                                                (
+                                                    [thumb] => Array
+                                                        (
+                                                            [w] => 150
+                                                            [h] => 150
+                                                            [resize] => crop
+                                                        )
+
+                                                    [small] => Array
+                                                        (
+                                                            [w] => 340
+                                                            [h] => 140
+                                                            [resize] => fit
+                                                        )
+
+                                                    [medium] => Array
+                                                        (
+                                                            [w] => 600
+                                                            [h] => 247
+                                                            [resize] => fit
+                                                        )
+
+                                                    [large] => Array
+                                                        (
+                                                            [w] => 1024
+                                                            [h] => 423
+                                                            [resize] => fit
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => Discussing the #PolyMet project today at the Community Leaders Breakfast in Virginia. #IronRange https://t.co/MUL50LMafD
+            [url] => https://twitter.com/GoPolyMet/status/657197750849818624
+            [retweet_count] => 0
+            [favorite_count] => 4
+            [is_retweet] => 
+            [parent] => 657197750849818624
+            [sentiment] => neutral
+        )
+
+    [6] => Array
+        (
+            [id] => 657025834008469504
+            [user] => River Point Resort
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-22 02:49:00.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Thu Oct 22 02:49:00 +0000 2015
+                    [id] => 6.5702583400847E+17
+                    [id_str] => 657025834008469504
+                    [text] => RT @aaronklemz: One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t…
+                    [source] => <a href="https://mobile.twitter.com" rel="nofollow">Mobile Web (M5)</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 469612964
+                            [id_str] => 469612964
+                            [name] => River Point Resort
+                            [screen_name] => ElyOutfitters
+                            [location] => Ely, Minnesota 55731
+                            [description] => River Point Resort & Outfitting Co. offers Secluded Cabins and Villas on Birch Lake | Family Fishing Vacations | Boundary Waters Canoe Trips & Canoe Rentals
+                            [url] => http://t.co/k2z3X7Jczx
+                            [entities] => Array
+                                (
+                                    [url] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [url] => http://t.co/k2z3X7Jczx
+                                                            [expanded_url] => http://www.riverpointresort.com
+                                                            [display_url] => riverpointresort.com
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 0
+                                                                    [1] => 22
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 200
+                            [friends_count] => 221
+                            [listed_count] => 4
+                            [created_at] => Fri Jan 20 19:56:05 +0000 2012
+                            [favourites_count] => 361
+                            [utc_offset] => -18000
+                            [time_zone] => Central Time (US & Canada)
+                            [geo_enabled] => 1
+                            [verified] => 
+                            [statuses_count] => 552
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => C0DEED
+                            [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                            [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                            [profile_background_tile] => 
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/1769220272/RRR_normal.jpg
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/1769220272/RRR_normal.jpg
+                            [profile_banner_url] => https://pbs.twimg.com/profile_banners/469612964/1399217784
+                            [profile_link_color] => 0084B4
+                            [profile_sidebar_border_color] => C0DEED
+                            [profile_sidebar_fill_color] => DDEEF6
+                            [profile_text_color] => 333333
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 1
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [retweeted_status] => Array
+                        (
+                            [metadata] => Array
+                                (
+                                    [iso_language_code] => en
+                                    [result_type] => recent
+                                )
+
+                            [created_at] => Wed Oct 21 18:09:07 +0000 2015
+                            [id] => 6.5689500033313E+17
+                            [id_str] => 656895000333131776
+                            [text] => One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t.co/frLevsqiV1
+                            [source] => <a href="http://www.hootsuite.com" rel="nofollow">Hootsuite</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [user] => Array
+                                (
+                                    [id] => 57120672
+                                    [id_str] => 57120672
+                                    [name] => Aaron Klemz
+                                    [screen_name] => aaronklemz
+                                    [location] => Columbia Heights, MN
+                                    [description] => Spewing misleading and simply incorrect statements ... loud ... obnoxious ... deceitful ... frenzied ... irrational. - Mesabi Daily News 10/16/15
+                                    [url] => 
+                                    [entities] => Array
+                                        (
+                                            [description] => Array
+                                                (
+                                                    [urls] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [protected] => 
+                                    [followers_count] => 2166
+                                    [friends_count] => 2350
+                                    [listed_count] => 78
+                                    [created_at] => Wed Jul 15 20:03:52 +0000 2009
+                                    [favourites_count] => 965
+                                    [utc_offset] => 
+                                    [time_zone] => 
+                                    [geo_enabled] => 1
+                                    [verified] => 
+                                    [statuses_count] => 20650
+                                    [lang] => en
+                                    [contributors_enabled] => 
+                                    [is_translator] => 
+                                    [is_translation_enabled] => 
+                                    [profile_background_color] => 000000
+                                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme6/bg.gif
+                                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme6/bg.gif
+                                    [profile_background_tile] => 
+                                    [profile_image_url] => http://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/57120672/1433091005
+                                    [profile_link_color] => 3B94D9
+                                    [profile_sidebar_border_color] => 000000
+                                    [profile_sidebar_fill_color] => 000000
+                                    [profile_text_color] => 000000
+                                    [profile_use_background_image] => 
+                                    [has_extended_profile] => 
+                                    [default_profile] => 
+                                    [default_profile_image] => 
+                                    [following] => 
+                                    [follow_request_sent] => 
+                                    [notifications] => 
+                                )
+
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [is_quote_status] => 
+                            [retweet_count] => 4
+                            [favorite_count] => 0
+                            [entities] => Array
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => PolyMet
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 14
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [url] => https://t.co/frLevsqiV1
+                                                    [expanded_url] => http://ow.ly/TGCiv
+                                                    [display_url] => ow.ly/TGCiv
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 114
+                                                            [1] => 137
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [is_quote_status] => 
+                    [retweet_count] => 4
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => PolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 30
+                                                    [1] => 38
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => aaronklemz
+                                            [name] => Aaron Klemz
+                                            [id] => 57120672
+                                            [id_str] => 57120672
+                                            [indices] => Array
+                                                (
+                                                    [0] => 3
+                                                    [1] => 14
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/frLevsqiV1
+                                            [expanded_url] => http://ow.ly/TGCiv
+                                            [display_url] => ow.ly/TGCiv
+                                            [indices] => Array
+                                                (
+                                                    [0] => 139
+                                                    [1] => 140
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => RT @aaronklemz: One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t…
+            [url] => https://twitter.com/ElyOutfitters/status/657025834008469504
+            [retweet_count] => 4
+            [favorite_count] => 0
+            [is_retweet] => 1
+            [parent] => 656895000333131776
+            [sentiment] => positive
+        )
+
+    [7] => Array
+        (
+            [id] => 656986962679607297
+            [user] => WaterLegacy
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-22 00:14:32.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Thu Oct 22 00:14:32 +0000 2015
+                    [id] => 6.5698696267961E+17
+                    [id_str] => 656986962679607297
+                    [text] => RT @aaronklemz: One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t…
+                    [source] => <a href="http://twitter.com" rel="nofollow">Twitter Web Client</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 475971215
+                            [id_str] => 475971215
+                            [name] => WaterLegacy
+                            [screen_name] => WaterLegacy
+                            [location] => Minnesota
+                            [description] => Non-profit dedicated to protecting Minnesota's clean water and the communities that depend on it.
+                            [url] => http://t.co/TD0nHVXfju
+                            [entities] => Array
+                                (
+                                    [url] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [url] => http://t.co/TD0nHVXfju
+                                                            [expanded_url] => http://www.waterlegacy.org/
+                                                            [display_url] => waterlegacy.org
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 0
+                                                                    [1] => 22
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 264
+                            [friends_count] => 335
+                            [listed_count] => 10
+                            [created_at] => Fri Jan 27 16:45:58 +0000 2012
+                            [favourites_count] => 428
+                            [utc_offset] => -18000
+                            [time_zone] => Central Time (US & Canada)
+                            [geo_enabled] => 
+                            [verified] => 
+                            [statuses_count] => 609
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => C0DEED
+                            [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                            [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                            [profile_background_tile] => 
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/652669944681725952/I5YGPsv-_normal.jpg
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/652669944681725952/I5YGPsv-_normal.jpg
+                            [profile_banner_url] => https://pbs.twimg.com/profile_banners/475971215/1424310844
+                            [profile_link_color] => 0084B4
+                            [profile_sidebar_border_color] => C0DEED
+                            [profile_sidebar_fill_color] => DDEEF6
+                            [profile_text_color] => 333333
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 1
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [retweeted_status] => Array
+                        (
+                            [metadata] => Array
+                                (
+                                    [iso_language_code] => en
+                                    [result_type] => recent
+                                )
+
+                            [created_at] => Wed Oct 21 18:09:07 +0000 2015
+                            [id] => 6.5689500033313E+17
+                            [id_str] => 656895000333131776
+                            [text] => One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t.co/frLevsqiV1
+                            [source] => <a href="http://www.hootsuite.com" rel="nofollow">Hootsuite</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [user] => Array
+                                (
+                                    [id] => 57120672
+                                    [id_str] => 57120672
+                                    [name] => Aaron Klemz
+                                    [screen_name] => aaronklemz
+                                    [location] => Columbia Heights, MN
+                                    [description] => Spewing misleading and simply incorrect statements ... loud ... obnoxious ... deceitful ... frenzied ... irrational. - Mesabi Daily News 10/16/15
+                                    [url] => 
+                                    [entities] => Array
+                                        (
+                                            [description] => Array
+                                                (
+                                                    [urls] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [protected] => 
+                                    [followers_count] => 2166
+                                    [friends_count] => 2350
+                                    [listed_count] => 78
+                                    [created_at] => Wed Jul 15 20:03:52 +0000 2009
+                                    [favourites_count] => 965
+                                    [utc_offset] => 
+                                    [time_zone] => 
+                                    [geo_enabled] => 1
+                                    [verified] => 
+                                    [statuses_count] => 20650
+                                    [lang] => en
+                                    [contributors_enabled] => 
+                                    [is_translator] => 
+                                    [is_translation_enabled] => 
+                                    [profile_background_color] => 000000
+                                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme6/bg.gif
+                                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme6/bg.gif
+                                    [profile_background_tile] => 
+                                    [profile_image_url] => http://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/57120672/1433091005
+                                    [profile_link_color] => 3B94D9
+                                    [profile_sidebar_border_color] => 000000
+                                    [profile_sidebar_fill_color] => 000000
+                                    [profile_text_color] => 000000
+                                    [profile_use_background_image] => 
+                                    [has_extended_profile] => 
+                                    [default_profile] => 
+                                    [default_profile_image] => 
+                                    [following] => 
+                                    [follow_request_sent] => 
+                                    [notifications] => 
+                                )
+
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [is_quote_status] => 
+                            [retweet_count] => 4
+                            [favorite_count] => 0
+                            [entities] => Array
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => PolyMet
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 14
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [url] => https://t.co/frLevsqiV1
+                                                    [expanded_url] => http://ow.ly/TGCiv
+                                                    [display_url] => ow.ly/TGCiv
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 114
+                                                            [1] => 137
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [is_quote_status] => 
+                    [retweet_count] => 4
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => PolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 30
+                                                    [1] => 38
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => aaronklemz
+                                            [name] => Aaron Klemz
+                                            [id] => 57120672
+                                            [id_str] => 57120672
+                                            [indices] => Array
+                                                (
+                                                    [0] => 3
+                                                    [1] => 14
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/frLevsqiV1
+                                            [expanded_url] => http://ow.ly/TGCiv
+                                            [display_url] => ow.ly/TGCiv
+                                            [indices] => Array
+                                                (
+                                                    [0] => 139
+                                                    [1] => 140
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => RT @aaronklemz: One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t…
+            [url] => https://twitter.com/WaterLegacy/status/656986962679607297
+            [retweet_count] => 4
+            [favorite_count] => 0
+            [is_retweet] => 1
+            [parent] => 656895000333131776
+            [sentiment] => positive
+        )
+
+    [8] => Array
+        (
+            [id] => 656911151255519232
+            [user] => Michael McCarron
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-21 19:13:17.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Wed Oct 21 19:13:17 +0000 2015
+                    [id] => 6.5691115125552E+17
+                    [id_str] => 656911151255519232
+                    [text] => RT @aaronklemz: One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t…
+                    [source] => <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 1171621
+                            [id_str] => 1171621
+                            [name] => Michael McCarron
+                            [screen_name] => me_mccarron
+                            [location] => Minneapolis, MN
+                            [description] => 
+                            [url] => 
+                            [entities] => Array
+                                (
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 365
+                            [friends_count] => 160
+                            [listed_count] => 54
+                            [created_at] => Wed Mar 14 18:12:07 +0000 2007
+                            [favourites_count] => 54119
+                            [utc_offset] => -18000
+                            [time_zone] => Central Time (US & Canada)
+                            [geo_enabled] => 
+                            [verified] => 
+                            [statuses_count] => 38439
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => 9AE4E8
+                            [profile_background_image_url] => http://pbs.twimg.com/profile_background_images/401215313/IMG_3150.jpeg
+                            [profile_background_image_url_https] => https://pbs.twimg.com/profile_background_images/401215313/IMG_3150.jpeg
+                            [profile_background_tile] => 1
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/58845443/Kim_new_fav_photo_of_me_normal.JPG
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/58845443/Kim_new_fav_photo_of_me_normal.JPG
+                            [profile_link_color] => 0000FF
+                            [profile_sidebar_border_color] => 87BC44
+                            [profile_sidebar_fill_color] => E0FF92
+                            [profile_text_color] => 000000
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [retweeted_status] => Array
+                        (
+                            [metadata] => Array
+                                (
+                                    [iso_language_code] => en
+                                    [result_type] => recent
+                                )
+
+                            [created_at] => Wed Oct 21 18:09:07 +0000 2015
+                            [id] => 6.5689500033313E+17
+                            [id_str] => 656895000333131776
+                            [text] => One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t.co/frLevsqiV1
+                            [source] => <a href="http://www.hootsuite.com" rel="nofollow">Hootsuite</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [user] => Array
+                                (
+                                    [id] => 57120672
+                                    [id_str] => 57120672
+                                    [name] => Aaron Klemz
+                                    [screen_name] => aaronklemz
+                                    [location] => Columbia Heights, MN
+                                    [description] => Spewing misleading and simply incorrect statements ... loud ... obnoxious ... deceitful ... frenzied ... irrational. - Mesabi Daily News 10/16/15
+                                    [url] => 
+                                    [entities] => Array
+                                        (
+                                            [description] => Array
+                                                (
+                                                    [urls] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [protected] => 
+                                    [followers_count] => 2166
+                                    [friends_count] => 2350
+                                    [listed_count] => 78
+                                    [created_at] => Wed Jul 15 20:03:52 +0000 2009
+                                    [favourites_count] => 965
+                                    [utc_offset] => 
+                                    [time_zone] => 
+                                    [geo_enabled] => 1
+                                    [verified] => 
+                                    [statuses_count] => 20650
+                                    [lang] => en
+                                    [contributors_enabled] => 
+                                    [is_translator] => 
+                                    [is_translation_enabled] => 
+                                    [profile_background_color] => 000000
+                                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme6/bg.gif
+                                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme6/bg.gif
+                                    [profile_background_tile] => 
+                                    [profile_image_url] => http://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/57120672/1433091005
+                                    [profile_link_color] => 3B94D9
+                                    [profile_sidebar_border_color] => 000000
+                                    [profile_sidebar_fill_color] => 000000
+                                    [profile_text_color] => 000000
+                                    [profile_use_background_image] => 
+                                    [has_extended_profile] => 
+                                    [default_profile] => 
+                                    [default_profile_image] => 
+                                    [following] => 
+                                    [follow_request_sent] => 
+                                    [notifications] => 
+                                )
+
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [is_quote_status] => 
+                            [retweet_count] => 4
+                            [favorite_count] => 0
+                            [entities] => Array
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => PolyMet
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 14
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [url] => https://t.co/frLevsqiV1
+                                                    [expanded_url] => http://ow.ly/TGCiv
+                                                    [display_url] => ow.ly/TGCiv
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 114
+                                                            [1] => 137
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [is_quote_status] => 
+                    [retweet_count] => 4
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => PolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 30
+                                                    [1] => 38
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => aaronklemz
+                                            [name] => Aaron Klemz
+                                            [id] => 57120672
+                                            [id_str] => 57120672
+                                            [indices] => Array
+                                                (
+                                                    [0] => 3
+                                                    [1] => 14
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/frLevsqiV1
+                                            [expanded_url] => http://ow.ly/TGCiv
+                                            [display_url] => ow.ly/TGCiv
+                                            [indices] => Array
+                                                (
+                                                    [0] => 139
+                                                    [1] => 140
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => RT @aaronklemz: One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t…
+            [url] => https://twitter.com/me_mccarron/status/656911151255519232
+            [retweet_count] => 4
+            [favorite_count] => 0
+            [is_retweet] => 1
+            [parent] => 656895000333131776
+            [sentiment] => positive
+        )
+
+    [9] => Array
+        (
+            [id] => 656898924184100864
+            [user] => Steve Timmer
+            [created_at] => DateTime Object
+                (
+                    [date] => 2015-10-21 18:24:42.000000
+                    [timezone_type] => 1
+                    [timezone] => +00:00
+                )
+
+            [raw] => Array
+                (
+                    [metadata] => Array
+                        (
+                            [iso_language_code] => en
+                            [result_type] => recent
+                        )
+
+                    [created_at] => Wed Oct 21 18:24:42 +0000 2015
+                    [id] => 6.568989241841E+17
+                    [id_str] => 656898924184100864
+                    [text] => RT @aaronklemz: One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t…
+                    [source] => <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+                    [truncated] => 
+                    [in_reply_to_status_id] => 
+                    [in_reply_to_status_id_str] => 
+                    [in_reply_to_user_id] => 
+                    [in_reply_to_user_id_str] => 
+                    [in_reply_to_screen_name] => 
+                    [user] => Array
+                        (
+                            [id] => 505438386
+                            [id_str] => 505438386
+                            [name] => Steve Timmer
+                            [screen_name] => stevetimmer
+                            [location] => Twin Cities, MN
+                            [description] => 
+                            [url] => http://t.co/NNArRgxp0G
+                            [entities] => Array
+                                (
+                                    [url] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [url] => http://t.co/NNArRgxp0G
+                                                            [expanded_url] => http://left.mn
+                                                            [display_url] => left.mn
+                                                            [indices] => Array
+                                                                (
+                                                                    [0] => 0
+                                                                    [1] => 22
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [description] => Array
+                                        (
+                                            [urls] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                )
+
+                            [protected] => 
+                            [followers_count] => 195
+                            [friends_count] => 170
+                            [listed_count] => 17
+                            [created_at] => Mon Feb 27 04:48:37 +0000 2012
+                            [favourites_count] => 1603
+                            [utc_offset] => -18000
+                            [time_zone] => Central Time (US & Canada)
+                            [geo_enabled] => 1
+                            [verified] => 
+                            [statuses_count] => 6273
+                            [lang] => en
+                            [contributors_enabled] => 
+                            [is_translator] => 
+                            [is_translation_enabled] => 
+                            [profile_background_color] => C0DEED
+                            [profile_background_image_url] => http://abs.twimg.com/images/themes/theme1/bg.png
+                            [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme1/bg.png
+                            [profile_background_tile] => 
+                            [profile_image_url] => http://pbs.twimg.com/profile_images/2848572638/eecb1eee322d938b418bec4d22ca60f9_normal.jpeg
+                            [profile_image_url_https] => https://pbs.twimg.com/profile_images/2848572638/eecb1eee322d938b418bec4d22ca60f9_normal.jpeg
+                            [profile_banner_url] => https://pbs.twimg.com/profile_banners/505438386/1368410026
+                            [profile_link_color] => 0084B4
+                            [profile_sidebar_border_color] => C0DEED
+                            [profile_sidebar_fill_color] => DDEEF6
+                            [profile_text_color] => 333333
+                            [profile_use_background_image] => 1
+                            [has_extended_profile] => 
+                            [default_profile] => 1
+                            [default_profile_image] => 
+                            [following] => 
+                            [follow_request_sent] => 
+                            [notifications] => 
+                        )
+
+                    [geo] => 
+                    [coordinates] => 
+                    [place] => 
+                    [contributors] => 
+                    [retweeted_status] => Array
+                        (
+                            [metadata] => Array
+                                (
+                                    [iso_language_code] => en
+                                    [result_type] => recent
+                                )
+
+                            [created_at] => Wed Oct 21 18:09:07 +0000 2015
+                            [id] => 6.5689500033313E+17
+                            [id_str] => 656895000333131776
+                            [text] => One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t.co/frLevsqiV1
+                            [source] => <a href="http://www.hootsuite.com" rel="nofollow">Hootsuite</a>
+                            [truncated] => 
+                            [in_reply_to_status_id] => 
+                            [in_reply_to_status_id_str] => 
+                            [in_reply_to_user_id] => 
+                            [in_reply_to_user_id_str] => 
+                            [in_reply_to_screen_name] => 
+                            [user] => Array
+                                (
+                                    [id] => 57120672
+                                    [id_str] => 57120672
+                                    [name] => Aaron Klemz
+                                    [screen_name] => aaronklemz
+                                    [location] => Columbia Heights, MN
+                                    [description] => Spewing misleading and simply incorrect statements ... loud ... obnoxious ... deceitful ... frenzied ... irrational. - Mesabi Daily News 10/16/15
+                                    [url] => 
+                                    [entities] => Array
+                                        (
+                                            [description] => Array
+                                                (
+                                                    [urls] => Array
+                                                        (
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [protected] => 
+                                    [followers_count] => 2166
+                                    [friends_count] => 2350
+                                    [listed_count] => 78
+                                    [created_at] => Wed Jul 15 20:03:52 +0000 2009
+                                    [favourites_count] => 965
+                                    [utc_offset] => 
+                                    [time_zone] => 
+                                    [geo_enabled] => 1
+                                    [verified] => 
+                                    [statuses_count] => 20650
+                                    [lang] => en
+                                    [contributors_enabled] => 
+                                    [is_translator] => 
+                                    [is_translation_enabled] => 
+                                    [profile_background_color] => 000000
+                                    [profile_background_image_url] => http://abs.twimg.com/images/themes/theme6/bg.gif
+                                    [profile_background_image_url_https] => https://abs.twimg.com/images/themes/theme6/bg.gif
+                                    [profile_background_tile] => 
+                                    [profile_image_url] => http://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                                    [profile_image_url_https] => https://pbs.twimg.com/profile_images/651821079069986816/XfS4aRz8_normal.jpg
+                                    [profile_banner_url] => https://pbs.twimg.com/profile_banners/57120672/1433091005
+                                    [profile_link_color] => 3B94D9
+                                    [profile_sidebar_border_color] => 000000
+                                    [profile_sidebar_fill_color] => 000000
+                                    [profile_text_color] => 000000
+                                    [profile_use_background_image] => 
+                                    [has_extended_profile] => 
+                                    [default_profile] => 
+                                    [default_profile_image] => 
+                                    [following] => 
+                                    [follow_request_sent] => 
+                                    [notifications] => 
+                                )
+
+                            [geo] => 
+                            [coordinates] => 
+                            [place] => 
+                            [contributors] => 
+                            [is_quote_status] => 
+                            [retweet_count] => 4
+                            [favorite_count] => 0
+                            [entities] => Array
+                                (
+                                    [hashtags] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [text] => PolyMet
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 14
+                                                            [1] => 22
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [symbols] => Array
+                                        (
+                                        )
+
+                                    [user_mentions] => Array
+                                        (
+                                        )
+
+                                    [urls] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [url] => https://t.co/frLevsqiV1
+                                                    [expanded_url] => http://ow.ly/TGCiv
+                                                    [display_url] => ow.ly/TGCiv
+                                                    [indices] => Array
+                                                        (
+                                                            [0] => 114
+                                                            [1] => 137
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                            [favorited] => 
+                            [retweeted] => 
+                            [possibly_sensitive] => 
+                            [lang] => en
+                        )
+
+                    [is_quote_status] => 
+                    [retweet_count] => 4
+                    [favorite_count] => 0
+                    [entities] => Array
+                        (
+                            [hashtags] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [text] => PolyMet
+                                            [indices] => Array
+                                                (
+                                                    [0] => 30
+                                                    [1] => 38
+                                                )
+
+                                        )
+
+                                )
+
+                            [symbols] => Array
+                                (
+                                )
+
+                            [user_mentions] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [screen_name] => aaronklemz
+                                            [name] => Aaron Klemz
+                                            [id] => 57120672
+                                            [id_str] => 57120672
+                                            [indices] => Array
+                                                (
+                                                    [0] => 3
+                                                    [1] => 14
+                                                )
+
+                                        )
+
+                                )
+
+                            [urls] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [url] => https://t.co/frLevsqiV1
+                                            [expanded_url] => http://ow.ly/TGCiv
+                                            [display_url] => ow.ly/TGCiv
+                                            [indices] => Array
+                                                (
+                                                    [0] => 139
+                                                    [1] => 140
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                    [favorited] => 
+                    [retweeted] => 
+                    [possibly_sensitive] => 
+                    [lang] => en
+                )
+
+            [text] => RT @aaronklemz: One one hand, #PolyMet execs talk up company. On other, they're dumping shares. Makes you wonder what to believe. https://t…
+            [url] => https://twitter.com/stevetimmer/status/656898924184100864
+            [retweet_count] => 4
+            [favorite_count] => 0
+            [is_retweet] => 1
+            [parent] => 656895000333131776
+            [sentiment] => positive
+        )
+
+)
