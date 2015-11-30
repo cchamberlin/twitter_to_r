@@ -18,5 +18,12 @@ define('TWITTER_ACCESS_SECRET', 'PD4qfQMaYlsg991RgFRrq0MDEDQjCndorELTPbT66JHGb')
 // How many tweets to keep for the top tweets report
 define('SAVE_TOP', 10);
 
+// Database info
+define('DB_DRIVER','mysql');
+define('DB_DATABASE','TwitterSentiment');
+define('DB_SERVER','localhost');
+define('DB_USER','root');
+define('DB_PASSWORD',NULL);
+
 // Save debugging info in twits.txt?
 define('DUMP_ALL_TWEETS', TRUE);

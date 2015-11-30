@@ -44,10 +44,11 @@ class TwitData
 		}
 	}
 	
-    public function process($results, $saveTop) {
+    public function process($results, $saveTop, $origHashtag) {
     	
     	$sentimentScore = 0;
     	$dates = array();
+    	$this->hashtag = $origHashtag;
     	$this->saveTop = $saveTop;
     	$this->twitCount = 0;
     	
@@ -97,7 +98,21 @@ class TwitData
     	$this->start = array_shift( $dates );
     	$this->end = array_pop( $dates );
     	$this->avgSentiment = $this->totalSentimentScore / $this->twitCount;
-    	
+
+		// Get the graph
+		$nowAry = getdate();
+		$nowStr = $nowAry['mon'] . '/' . $nowAry['mday'] . '/' . $nowAry['year'];
+		exec('C:\Progra~1\R\R-3.2.2\bin\Rscript C:\xampp\htdocs\php\twitter_to_r\data\twittergraph.r ' . 
+				$nowStr . ' ' . 
+				$this->avgSentiment . ' ' .
+				$origHashtag,
+				$return_data,
+				$return_code
+				);
+		// fwrite($handle, print_r($return_data,TRUE));
+		// fwrite($handle, $return_code);
+		
+		
     	// Sort users by number of tweets.
     	$this->users = $this->table_orderby( $users, 'tweetCount', SORT_DESC );
     	

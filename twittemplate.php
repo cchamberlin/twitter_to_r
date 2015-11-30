@@ -11,24 +11,89 @@ class TwitTemplate
 <meta charset="UTF-8" />
 <title>Twitter Analysis</title>
 <style>
-caption{font-weight:bold;border:1px solid black;border-collapse:collapse;padding:2px 10px;background-color:lightgrey;}
-th{cursor:n-resize;background-color:lightgrey;border:1px solid black;border-collapse:collapse;padding:2px 10px;}
-
-p.message{color:red;}
-.big{padding:none;border:none;border-collapse:collapse;}
-.separator{background-color:darkgreen;}
-.bignum{color:white;background-color:darkgreen;text-align:center;font-size:200%;}
-.bolder{font-weight:bold;}
-
-#rundata td {font-weight:bold;border:1px solid black;border-collapse:collapse;padding:2px 10px;}
-#topusers, #topusers td, #history, #history td, #toptweets, #toptweets td {
-border:1px solid black;
-border-collapse:collapse;
-padding:2px 10px;
+caption {
+	font-weight: bold;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 2px 10px;
+	background-color: lightgrey;
 }
 
+th {
+	cursor: n-resize;
+	background-color: lightgrey;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 2px 10px;
+}
+
+.message {
+	color: red;
+}
+
+.big {
+	padding: none;
+	border: none;
+	border-collapse: collapse;
+}
+
+.separator {
+	background-color: darkgreen;
+}
+
+.bignum {
+	color: white;
+	background-color: darkgreen;
+	text-align: center;
+	font-size: 200%;
+}
+
+.bolder {
+	font-weight: bold;
+}
+
+#rundata td {
+	font-weight: bold;
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 2px 10px;
+}
+
+#topusers, #topusers td, #history, #history td, #toptweets, #toptweets td
+	{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 2px 10px;
+}
+
+#keyword {
+	width: 200px;
+	font-size: 1em;
+}
+
+#results {
+	width: 204px;
+	position: absolute;
+	border: 1px solid #c0c0c0;
+}
+
+#results .item {
+	padding: 3px;
+	font-family: Helvetica;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+#results .item:last-child {
+	border-bottom: 0px;
+}
+
+#results .item:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
 </style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
 
@@ -46,11 +111,31 @@ $(document).ready(function(){
 		}
 	}
 	function getCellValue(row, index){ return $(row).children('td').eq(index).html() }
+
+
+	var keyword = $("#keyword").val();
+
+	$.post("twitsuggestions.php")
+	.done(function( data ) {
+		$('#results').html('');
+		var results = jQuery.parseJSON(data);
+		$(results).each(function(key, value) {
+			$('#results').append('<div class="item">' + value + '</div>');
+		})
+
+	    $('.item').click(function() {
+	    	var text = $(this).html();
+	    	$('#keyword').val(text);
+	    })
+
+	});
+
 });
+
 </script>
 </head>
 <body>
-<h1>Twitter Sentiment Analysis</h1>
+	<h1>Twitter Sentiment Analysis</h1>
 <?php
 	}
 	
@@ -58,77 +143,134 @@ $(document).ready(function(){
     public function twitReport($TwitData, $results) {
     	$this->header();
     	?>
-<p><a href="twitindex.php">Return to entry form</a></p>
-<table id="rundata">
-<tbody>
-<tr><td>Date Range:</td><td><?php print(date_format($TwitData->start,'Y-m-d H:i:s') . ' to ' .
-    			date_format($TwitData->end,'Y-m-d H:i:s'))?></td></tr>
-<tr><td>Tweets:</td><td><?php print($TwitData->twitCount)?></td></tr>
-<tr><td>Average Sentiment Score:</td><td><?php printf("%01.2f", $TwitData->avgSentiment)?></td></tr>
-</tbody>
-</table>
+<p>
+		<a href="twitindex.php">Return to entry form</a>
+	</p>
+	<table id="rundata">
+		<tbody>
+			<tr>
+				<td>Hashtag:</td>
+				<td><?php print($TwitData->hashtag) ?></td>
+			</tr>
+			<tr>
+				<td>Date Range:</td>
+				<td><?php print(date_format($TwitData->start,'Y-m-d H:i:s') . ' to ' .
+    			date_format($TwitData->end,'Y-m-d H:i:s'))?></td>
+			</tr>
+			<tr>
+				<td>Tweets:</td>
+				<td><?php print($TwitData->twitCount)?></td>
+			</tr>
+			<tr>
+				<td>Average Sentiment Score:</td>
+				<td><?php printf("%01.2f", $TwitData->avgSentiment)?></td>
+			</tr>
+		</tbody>
+	</table>
 
-<br />
+	<br />
 
-<table class="big"><tr class="big" valign="top"><td class="big">
-<table id="topusers">
-<thead>
-<caption><b>Top Users</b></caption>
-<tr><th>User</th><th>Tweets</th><th>Sentiment</th></tr>
-</thead><tbody>
+	<table class="big">
+		<tr class="big" valign="top">
+			<td class="big">
+				<table id="topusers">
+					<thead>
+					
+					
+					<caption>
+						<b>Top Users</b>
+					</caption>
+					<tr>
+						<th>User</th>
+						<th>Tweets</th>
+						<th>Sentiment</th>
+					</tr>
+					</thead>
+					<tbody>
 <?php
 		foreach ($TwitData->users as $user => $counts ){
 ?>
-<tr><td style="color:white;background-color:darkgreen;"><?php print($user)?></td>
-<td><?php print($counts['tweetCount'])?></td>
-<td><?php print($counts['sentiment'])?></td>
-</tr>
+<tr>
+							<td style="color: white; background-color: darkgreen;"><?php print($user)?></td>
+							<td><?php print($counts['tweetCount'])?></td>
+							<td><?php print($counts['sentiment'])?></td>
+						</tr>
 <?php 
 		}
 ?>
 </tbody>
-</table>
+				</table>
 
-</td><td class="big">
+			</td>
+			<td class="big">
 
-<table id="history">
-<thead>
-<caption><b>Sentiment History</b></caption>
-</thead>
-<tr><td><img src="sentiment.png" alt="Graph of sentiment history"></td></tr>
-</table></td></tr></table>
+				<table id="history">
+					<thead>
+					
+					
+					<caption>
+						<b>Sentiment History</b>
+					</caption>
+					</thead>
+					<tr>
+						<td><img src="sentiment.png" alt="Graph of sentiment history"></td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
 
-<br />
+	<br />
 
-<table id="toptweets">
-<thead>
-<caption><b><?php print("Top " . $TwitData->saveTop . " Tweets")?></b></caption>
-<tr><th></th><th>User</th><th>Date</th><th>Retweets</th><th>Favorites</th><th>Sentiment</th><th>URL</th></tr>
-</thead><tbody>
+	<table id="toptweets">
+		<thead>
+		
+		
+		<caption>
+			<b><?php print("Top " . $TwitData->saveTop . " Tweets")?></b>
+		</caption>
+		<tr>
+			<th></th>
+			<th>User</th>
+			<th>Date</th>
+			<th>Retweets</th>
+			<th>Favorites</th>
+			<th>Sentiment</th>
+			<th>URL</th>
+		</tr>
+		</thead>
+		<tbody>
 <?php
 		foreach ( $results as $index => $tweet ) {
 			if(isset($rownum)){	$rownum++; }
 			else{				$rownum = 1; }
 ?> 
 <tr>
-	<td rowspan="2" class="bignum"><?php print($rownum); ?>
-	<td class="bolder"><?php print($tweet['user'])?></td>
-	<td><?php print(date_format( $tweet['created_at'], 'Y-m-d H:i:s' ))?></td>
-	<td><?php print($tweet['retweet_count'])?></td>
-	<td><?php print($tweet['favorite_count'])?></td>
-	<td><?php print($tweet['sentiment'])?></td>
-	<td><?php print('<a href=' . $tweet['url'] . '>' . $tweet['url'] . '</a>')?></td>
-</tr>
-<tr>
-	<td colspan="6"><?php print($tweet['text'])?></td></tr>
-<tr class="separator"><td colspan="7"></td></tr>
+				<td rowspan="2" class="bignum"><?php print($rownum); ?>
+	
+				
+				<td class="bolder"><?php print($tweet['user'])?></td>
+				<td><?php print(date_format( $tweet['created_at'], 'Y-m-d H:i:s' ))?></td>
+				<td><?php print($tweet['retweet_count'])?></td>
+				<td><?php print($tweet['favorite_count'])?></td>
+				<td><?php print($tweet['sentiment'])?></td>
+				<td><?php print('<a href=' . $tweet['url'] . '>' . $tweet['url'] . '</a>')?></td>
+			</tr>
+			<tr>
+				<td colspan="6"><?php print($tweet['text'])?></td>
+			</tr>
+			<tr class="separator">
+				<td colspan="7"></td>
+			</tr>
 	<?php 
 		}
 	?>
 </tbody>
-</table>
+	</table>
 
-<p><a href="twitindex.php">Return to entry form</a></p>
+	<p>
+		<a href="twitindex.php">Return to entry form</a>
+	</p>
 
 <?php		
 
@@ -140,21 +282,25 @@ $(document).ready(function(){
     public function twitForm($message) {
     	$this->header();
 ?>
-<p>Type your keyword below to perform Sentiment Analysis on Twitter results:</p>
-<form method="GET">
-    <label>Keyword: </label> <input type="text" name="q" /> 
-    <label>Sample: </label>  
-    	<select name="n">
-  			<option>10</option>
-  			<option>20</option>
-  			<option>50</option>
-  			<option>100</option>
-  			<option>200</option>
-  			<option>300</option>
-		</select>
-    <input type="submit" />
-</form>
-<p class="message"><?php print($message); ?></p>
+<p>Type your keyword below to perform Sentiment Analysis on Twitter
+		results:</p>
+	<form method="GET">
+		<label>Keyword: </label> <input type="text" name="q" placeholder="Search" id="keyword" list="datalist"/> <label>Sample:
+		</label> <select name="n">
+			<option>10</option>
+			<option>20</option>
+			<option>50</option>
+			<option>100</option>
+			<option>200</option>
+			<option>300</option>
+		</select> <input type="submit" />
+	</form>
+	<div class="message"><?php print($message); ?></div>
+	<div id="header">
+	<h3>Previously Tracked Hashtags</h3>
+	</div>
+	<div id="results">
+	</div>
 <?php
 		$this->footer();
     }
@@ -165,6 +311,6 @@ $(document).ready(function(){
     	?>
 </body>
 </html>
-    <?php
+<?php
         }
 }

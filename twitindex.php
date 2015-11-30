@@ -3,8 +3,9 @@
 /***********************************************************************
  * TODO:
  * ------------------------------------------
- * URL should read like "https://twitter.com/EisOnMN/status/642350813990420480"
- * Get full tweets?
+ * 
+ * jQuery .post() existing Hashtags 
+ * (<div id="suggestion-box"></div>)?
  */
 
 include_once (dirname ( __FILE__ ) . '/config.php');
@@ -25,35 +26,30 @@ try {
 		$query = $TwitData->cleanHashtag($_GET['q']);
 		$count = $TwitData->cleanResultsNum($_GET['n']);
 		
-		// Let's try to get the graph before doing anything big.
-		exec('C:\Progra~1\R\R-3.2.2\bin\Rscript C:\xampp\htdocs\php\twitter_to_r\data\twittergraph.r',$return_data,$return_code);
-		
-		
 		// Search Tweets parameters as described at https://dev.twitter.com/docs/api/1.1/get/search/tweets
 		$twitterSearchParams = array (
 				'q' => $query,
 				'lang' => 'en',
 				'count' => $count
 		);
-		
+			
 		// Get the results from Twitter and DatumBox.
 		$results = ($TwitterSentimentAnalysis->sentimentAnalysis( $twitterSearchParams )) or die($TwitTemplate->twitForm("Caught a cURL error!"));
 	
 		// Write data to file if debugging.
-		if (DUMP_ALL_TWEETS == TRUE) {
+/* 		if (DUMP_ALL_TWEETS == TRUE) {
 			$handle = fopen('twits.txt', 'w');
-			fwrite($handle, print_r($return_data,TRUE));
-			fwrite($handle, $return_code);
+			fwrite($handle, $query);
 			fwrite($handle, print_r($results,TRUE));
 			fclose($handle);
-		}
+		} */
 		
 		// If there were no results, send them back to the submission form. Otherwise, process and deliver the report.
 		if($results == Array()){
 			$TwitTemplate->twitForm("Sorry, no results found! Please try again");
 		}
 		else {
-			$TwitData->process($results, SAVE_TOP);
+			$TwitData->process($results, SAVE_TOP, $query);
 			$TwitTemplate->twitReport($TwitData, $TwitData->results);	
 		}
 	}
