@@ -37,12 +37,12 @@ try {
 		$results = ($TwitterSentimentAnalysis->sentimentAnalysis( $twitterSearchParams )) or die($TwitTemplate->twitForm("Caught a cURL error!"));
 	
 		// Write data to file if debugging.
-/* 		if (DUMP_ALL_TWEETS == TRUE) {
-			$handle = fopen('twits.txt', 'w');
+ 		if (DUMP_ALL_TWEETS == TRUE) {
+			$handle = fopen('troubleshooting\twits.txt', 'w');
 			fwrite($handle, $query);
 			fwrite($handle, print_r($results,TRUE));
 			fclose($handle);
-		} */
+		} 
 		
 		// If there were no results, send them back to the submission form. Otherwise, process and deliver the report.
 		if($results == Array()){
@@ -67,7 +67,7 @@ try {
 	 	$TwitTemplate->twitForm("Sorry, there was an error! Helpdesk has been notified. Please try again later.");
 	 	
 	 	// Write error to the error log
-	 	$handle = fopen('error.log', 'a');
+	 	$handle = fopen('troubleshooting\error.log', 'a');
 	 	fwrite($handle, $e->getFile() . " Line " . $e->getLine() . "\t" . $e->getMessage() . "\n");
 	 	fclose($handle);
  	}

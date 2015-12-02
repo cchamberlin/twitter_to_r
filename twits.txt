@@ -1,8 +1,0 @@
-Array
-(
-    [0] => #MNVikings
-    [1] => #MNWild
-    [2] => #MNTimberwolves
-    [3] => #MNTwins
-    [4] => #MNUnitedFC
-)

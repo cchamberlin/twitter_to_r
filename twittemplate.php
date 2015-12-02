@@ -112,7 +112,6 @@ $(document).ready(function(){
 	}
 	function getCellValue(row, index){ return $(row).children('td').eq(index).html() }
 
-
 	var keyword = $("#keyword").val();
 
 	$.post("twitsuggestions.php")
@@ -200,20 +199,16 @@ $(document).ready(function(){
 ?>
 </tbody>
 				</table>
-
 			</td>
 			<td class="big">
-
 				<table id="history">
 					<thead>
-					
-					
-					<caption>
-						<b>Sentiment History</b>
-					</caption>
+						<caption>
+							<b>Sentiment History</b>
+						</caption>
 					</thead>
 					<tr>
-						<td><img src="sentiment.png" alt="Graph of sentiment history"></td>
+						<td><img src="r/sentiment.png" alt="Graph of sentiment history"></td>
 					</tr>
 				</table>
 			</td>
@@ -248,6 +243,8 @@ $(document).ready(function(){
 <tr>
 				<td rowspan="2" class="bignum"><?php print($rownum); ?>
 	
+				
+				
 				
 				<td class="bolder"><?php print($tweet['user'])?></td>
 				<td><?php print(date_format( $tweet['created_at'], 'Y-m-d H:i:s' ))?></td>
@@ -285,8 +282,9 @@ $(document).ready(function(){
 <p>Type your keyword below to perform Sentiment Analysis on Twitter
 		results:</p>
 	<form method="GET">
-		<label>Keyword: </label> <input type="text" name="q" placeholder="Search" id="keyword" list="datalist"/> <label>Sample:
-		</label> <select name="n">
+		<label>Keyword: </label> <input type="text" name="q"
+			placeholder="Search" id="keyword" list="datalist" /> <label>Sample: </label>
+		<select name="n">
 			<option>10</option>
 			<option>20</option>
 			<option>50</option>
@@ -297,10 +295,9 @@ $(document).ready(function(){
 	</form>
 	<div class="message"><?php print($message); ?></div>
 	<div id="header">
-	<h3>Previously Tracked Hashtags</h3>
+		<h3>Previously Tracked Hashtags</h3>
 	</div>
-	<div id="results">
-	</div>
+	<div id="results"></div>
 <?php
 		$this->footer();
     }
