@@ -10,128 +10,9 @@ class TwitTemplate
 <head>
 <meta charset="UTF-8" />
 <title>Twitter Analysis</title>
-<style>
-caption {
-	font-weight: bold;
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 2px 10px;
-	background-color: lightgrey;
-}
-
-th {
-	cursor: n-resize;
-	background-color: lightgrey;
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 2px 10px;
-}
-
-.message {
-	color: red;
-}
-
-.big {
-	padding: none;
-	border: none;
-	border-collapse: collapse;
-}
-
-.separator {
-	background-color: darkgreen;
-}
-
-.bignum {
-	color: white;
-	background-color: darkgreen;
-	text-align: center;
-	font-size: 200%;
-}
-
-.bolder {
-	font-weight: bold;
-}
-
-#rundata td {
-	font-weight: bold;
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 2px 10px;
-}
-
-#topusers, #topusers td, #history, #history td, #toptweets, #toptweets td
-	{
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 2px 10px;
-}
-
-#keyword {
-	width: 200px;
-	font-size: 1em;
-}
-
-#results {
-	width: 204px;
-	position: absolute;
-	border: 1px solid #c0c0c0;
-}
-
-#results .item {
-	padding: 3px;
-	font-family: Helvetica;
-	border-bottom: 1px solid #c0c0c0;
-}
-
-#results .item:last-child {
-	border-bottom: 0px;
-}
-
-#results .item:hover {
-	background-color: #f2f2f2;
-	cursor: pointer;
-}
-</style>
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-
-	$('th').click(function(){
-		var table = $(this).parents('table').eq(0)
-		var rows = table.find('tr:gt(0)').toArray().sort(comparer($(this).index()))
-		this.asc = !this.asc
-		if (!this.asc){rows = rows.reverse()}
-		for (var i = 0; i < rows.length; i++){table.append(rows[i])}
-	})
-	function comparer(index) {
-		return function(a, b) {
-			var valA = getCellValue(a, index), valB = getCellValue(b, index)
-			return $.isNumeric(valA) && $.isNumeric(valB) ? valA - valB : valA.localeCompare(valB)
-		}
-	}
-	function getCellValue(row, index){ return $(row).children('td').eq(index).html() }
-
-	var keyword = $("#keyword").val();
-
-	$.post("twitsuggestions.php")
-	.done(function( data ) {
-		$('#results').html('');
-		var results = jQuery.parseJSON(data);
-		$(results).each(function(key, value) {
-			$('#results').append('<div class="item">' + value + '</div>');
-		})
-
-	    $('.item').click(function() {
-	    	var text = $(this).html();
-	    	$('#keyword').val(text);
-	    })
-
-	});
-
-});
-
-</script>
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/default.js"></script>
 </head>
 <body>
 	<h1>Twitter Sentiment Analysis</h1>
@@ -189,7 +70,7 @@ $(document).ready(function(){
 <?php
 		foreach ($TwitData->users as $user => $counts ){
 ?>
-<tr>
+						<tr>
 							<td style="color: white; background-color: darkgreen;"><?php print($user)?></td>
 							<td><?php print($counts['tweetCount'])?></td>
 							<td><?php print($counts['sentiment'])?></td>
@@ -279,7 +160,7 @@ $(document).ready(function(){
     public function twitForm($message) {
     	$this->header();
 ?>
-<p>Type your keyword below to perform Sentiment Analysis on Twitter
+<p>Type your hashtag below to perform a sentiment analysis on recent Tweets
 		results:</p>
 	<form method="GET">
 		<label>Keyword: </label> <input type="text" name="q"
