@@ -26,4 +26,4 @@ define('DB_USER','root');
 define('DB_PASSWORD',NULL);
 
 // Save debugging info in twits.txt?
-define('DUMP_ALL_TWEETS', TRUE);
+define('DUMP_ALL_TWEETS', FALSE);
